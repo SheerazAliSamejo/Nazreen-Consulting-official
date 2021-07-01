@@ -1,0 +1,2271 @@
+ /* Services Pages */
+ /*  */
+
+ html{
+    scroll-behavior: smooth;
+}
+
+
+/* serve-hero */
+
+
+.serve-hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.serve-hero-content p{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding: 85px 0px;  
+    filter: drop-shadow(8px 16px 11px black);
+}
+
+
+/* serve-hero End */
+
+/* serve navigation */
+
+.serve-navigation{
+    width: 100%;
+}
+
+.serve-navigation .serve-navigation-content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 50px 0px;
+}
+
+.serve-navigation .serve-navigation-content a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 29%;
+
+    margin: 10px 15px;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #6d6d6d;
+    transition: .3s ease;
+    border-radius: 20px;
+    height: 110px;
+    box-shadow: -3px -3px 2px rgb(255 255 255 / 30%), 1px 2px 4px rgb(55 21 13 / 22%), 15px 15px 15px rgb(0 22 29 / 20%);
+}
+
+.serve-navigation .serve-navigation-content a:hover{
+    background: var(--main);
+    transform: translateY(5px);
+    color: white;
+}
+
+
+.serve-navigation .serve-navigation-content a img{
+    width: 50px;
+    margin-left: 15px;
+    transition: .3s ease;
+}
+
+.serve-navigation .serve-navigation-content a:hover img{
+    filter:invert(2)
+}
+
+/* serve navigation End */
+
+
+/* website dev section */
+
+.website-dev{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+.website-dev .website-left{
+    flex-basis: 55%;
+}
+
+.website-dev .website-left .left-content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.website-dev .website-left .left-content .heading{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--main);
+    padding: 0px 25px;
+
+}
+
+.website-dev .website-left .left-content .dis{
+    color: #10303d;
+    font-size: 20px;
+    padding: 35px 25px;
+
+} 
+
+.website-dev .website-left .left-content .btn{
+    padding: 10px 25px;
+
+}
+
+.website-dev .website-left .left-content .btn a{
+    color: #3c3c3c;
+    border: 1px solid #5c5c5c;
+    border-radius: 4px;
+    padding: 9px;
+
+}
+
+.website-dev .website-left .left-content .btn a:hover{
+    background-color: var(--main);
+    color: goldenrod;
+    border: 1px solid var(--main);
+}
+
+
+.website-dev .website-right{
+    flex-basis: 45%;
+    background-image: url(../img/website-dev.jpg);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    transition: 0.1s ease;
+}
+
+
+/* website dev section End */
+
+
+/* mobile app section */
+
+.mobile-app{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+.mobile-app .mobile-right{
+    flex-basis: 55%;
+}
+
+.mobile-app .mobile-right .right-content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.mobile-app .mobile-right .right-content .heading{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--main);
+    padding: 0px 25px;
+    
+}
+
+.mobile-app .mobile-right .right-content .dis{
+    color: #10303d;
+    font-size: 20px;
+    padding: 35px 25px;
+
+} 
+
+.mobile-app .mobile-right .right-content .btn{
+    padding: 10px 25px;
+    transition: 0.1s ease;
+}
+
+.mobile-app .mobile-right .right-content .btn a{
+    color: #3c3c3c;
+    border: 1px solid #5c5c5c;
+    border-radius: 4px;
+    padding: 9px;
+
+}
+
+.mobile-app .mobile-right .right-content .btn a:hover{
+    background-color: var(--main);
+    color: white;
+    border: 1px solid var(--main);
+}
+
+
+.mobile-app .mobile-left{
+    flex-basis: 45%;
+    background-image: url(../img/mobile-app.jpg);
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+}
+
+/* mobile app section End */
+
+/* web design section */
+
+.web-design{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+.web-design .web-design-left{
+    flex-basis: 55%;
+}
+
+.web-design .web-design-left .left-content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.web-design .web-design-left .left-content .heading{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--main);
+    padding: 0px 25px;
+
+}
+
+.web-design .web-design-left .left-content .dis{
+    color: #10303d;
+    font-size: 20px;
+    padding: 35px 25px;
+    
+} 
+
+.web-design .web-design-left .left-content .btn{
+    padding: 10px 25px;
+    
+}
+
+.web-design .web-design-left .left-content .btn a{
+    color: #3c3c3c;
+    border: 1px solid #5c5c5c;
+    border-radius: 4px;
+    padding: 9px;
+
+}
+
+.web-design .web-design-left .left-content .btn a:hover{
+    background-color: var(--main);
+    color: white;
+    border: 1px solid var(--main);
+}
+
+
+.web-design .web-design-right{
+    flex-basis: 45%;
+    background-image: url(../img/web-design.jpg);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+}
+
+
+/* web design section End */
+
+
+/* Web Hosting Section */
+
+.Hosting{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+.Hosting .Hosting-right{
+    flex-basis: 55%;
+}
+
+.Hosting .Hosting-right .right-content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.Hosting .Hosting-right .right-content .heading{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--main);
+    padding: 0px 25px;
+
+}
+
+.Hosting .Hosting-right .right-content .dis{
+    color: #10303d;
+    font-size: 20px;
+    padding: 35px 25px;
+
+} 
+
+.Hosting .Hosting-right .right-content .btn{
+    padding: 10px 25px;
+    
+}
+
+.Hosting .Hosting-right .right-content .btn a{
+    color: #3c3c3c;
+    border: 1px solid #5c5c5c;
+    border-radius: 4px;
+    padding: 9px;
+
+}
+
+.Hosting .Hosting-right .right-content .btn a:hover{
+    background-color: var(--main);
+    color: white;
+    border: 1px solid var(--main);
+}
+
+
+.Hosting .Hosting-left{
+    flex-basis: 45%;
+    background-image: url(../img/web-hosting.jpg);
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+}
+
+
+/* Web Hosting Section End */
+
+
+/* team-aug section */
+
+.team-aug{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+.team-aug .team-aug-left{
+    flex-basis: 55%;
+}
+
+.team-aug .team-aug-left .left-content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.team-aug .team-aug-left .left-content .heading{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--main);
+    padding: 0px 25px;
+
+}
+
+.team-aug .team-aug-left .left-content .dis{
+    color: #10303d;
+    font-size: 20px;
+    padding: 35px 25px;
+
+} 
+
+.team-aug .team-aug-left .left-content .btn{
+    padding: 10px 25px;
+    transition: 0.1s ease;
+}
+
+.team-aug .team-aug-left .left-content .btn a{
+    color: #3c3c3c;
+    border: 1px solid #5c5c5c;
+    border-radius: 4px;
+    padding: 9px;
+
+}
+
+.team-aug .team-aug-left .left-content .btn a:hover{
+    background-color: var(--main);
+    color: white;
+    border: 1px solid var(--main);
+}
+
+
+.team-aug .team-aug-right{
+    flex-basis: 45%;
+    background-image: url(../img/team-aug.jpg);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+}
+/* team-aug section End */
+
+
+/* business app section */
+
+.Business-apps{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+.Business-apps .Business-apps-right{
+    flex-basis: 55%;
+}
+
+.Business-apps .Business-apps-right .right-content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.Business-apps .Business-apps-right .right-content .heading{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--main);
+    padding: 0px 25px;
+    
+}
+
+.Business-apps .Business-apps-right .right-content .dis{
+    color: #10303d;
+    font-size: 20px;
+    padding: 35px 25px;
+
+} 
+
+.Business-apps .Business-apps-right .right-content .btn{
+    padding: 10px 25px;
+
+}
+
+.Business-apps .Business-apps-right .right-content .btn a{
+    color: #3c3c3c;
+    border: 1px solid #5c5c5c;
+    border-radius: 4px;
+    padding: 9px;
+
+
+}
+
+.Business-apps .Business-apps-right .right-content .btn a:hover{
+    background-color: var(--main);
+    color: white;
+    border: 1px solid var(--main);
+}
+
+
+.Business-apps .Business-apps-left{
+    flex-basis: 45%;
+    background-image: url(../img/business-app.jpg);
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    
+}
+
+
+
+/* Services Pages */
+/*  */
+
+
+/* Contact us page */
+
+.Contact-us{
+    background-image: url(../img/contact-us.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Contact-us .Contact-us-content{
+    text-align: center;
+    padding: 120px 0px;
+    color: white;
+}
+
+.Contact-us .Contact-us-content h2{
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+.Contact-us .Contact-us-content p{
+    width: 50%;
+    margin: auto;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px 0px;
+    border-radius: 4px;
+}
+
+.Query-contact{
+    background: white;
+}
+
+
+
+.Query .query-form .form{
+    padding-top: 40px;
+}
+
+.contact-serve-section{
+    background: whitesmoke;
+    padding: 30px 0px;
+}
+
+/* Contact us page End */
+
+
+/* Protfolio Page */
+
+.protfolio-hero{
+    background-image: url(../img/protfolio.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.protfolio-hero-content{
+    text-align: center;
+    padding: 120px 0px;
+    color: white;
+    width: 100%;
+
+}
+
+.protfolio-hero-content p{
+
+    font-size: 55px;
+    color: white;
+    text-align: center;
+
+    filter: drop-shadow(8px 16px 11px black);
+
+}
+
+
+.protfolio-hero .protfolio-hero-content p span{
+    font-size: 40px;
+}
+
+
+
+
+.portfolio-section{
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.portfolio-section .portfolio-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.portfolio-section .portfolio-content .portfolio-card {
+    flex-basis: 58%;
+    height: 660px;
+    display: flex;
+    
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;}
+
+
+    .portfolio-section .portfolio-content .portfolio-card .heading{
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        color: white;
+        text-shadow: 0px 3px 6px black;
+    }
+    .portfolio-section .portfolio-content .portfolio-card .dis{
+
+        width: 80%;
+        height: 60%;
+        position: absolute;
+        background: rgba(0,0,0,0.6);
+        border-radius: 4px;
+        padding: 10px;
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 600;
+        right: -55% !important;
+        top: 22%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .portfolio-section .portfolio-content .portfolio-card .dis p{
+        line-height: 26px;
+    }
+
+    .portfolio-section .portfolio-content .portfolio-card .work-tag{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .portfolio-section .portfolio-content .portfolio-card .work-tag a{
+        background: rgba(0,0,0,0.4);
+        color: white;
+        padding: 6px;
+        border-radius: 25px;
+        margin: 10px;
+    }
+
+
+    .portfolio-section .portfolio-content .portfolio-card .link-btn a{
+        background: rgba(0,0,0,0.6);
+        color: white;
+        padding: 5px 15px;
+        border-radius: 25px;
+    } 
+
+
+
+
+
+    .portfolio-section .portfolio-content .portfolio-card:nth-child(1){
+        background-image: url(../img/services/servewise-website.jpg);
+        background-position: inherit;
+        background-size: cover;
+    }
+
+    .portfolio-section .portfolio-content .portfolio-card:nth-child(2){
+        background-image: url(../img/services/tradeglobe.jpg);
+        background-position: inherit;
+        background-size: cover;
+    }
+
+    .portfolio-section .portfolio-content .portfolio-card:nth-child(3){
+        background-image: url(../img/services/logo\ bahia.jpg);
+        background-position: inherit;
+        background-size: cover;
+    }
+
+    .portfolio-section .portfolio-content .portfolio-card:nth-child(4){
+        background-image: url(../img/services/thebravo-website.jpg);
+        background-position: inherit;
+        background-size: cover;
+    }
+
+    .portfolio-section .portfolio-content .portfolio-card:nth-child(5){
+        background-image: url(../img/services/Splash\ screen.jpg);
+        background-position: inherit;
+        background-size: cover;
+    }
+
+    .portfolio-section .portfolio-content .portfolio-card:nth-child(6){
+        background-image: url(../img/services/home\ trend.jpg);
+        background-position: inherit;
+        background-size: cover;
+    }
+
+
+    /* Protfolio Page End */
+
+    /*contact_page*/
+    .contact-hero-content{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .contact-hero-content p{
+        font-size: 28px;
+        color: white;
+        text-align: center;
+        padding: 80px 0px;
+
+        filter: drop-shadow(8px 16px 11px black);
+    }
+
+    /*  */
+
+    /*Query*/
+
+    .Query{
+
+        width: 100%;
+    }
+
+    .Query .query-heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .Query .query-heading .head{
+        flex-basis: 100%;
+        text-align: center;
+        font-size: 45px;
+        font-weight: 700;
+        color: #3f4f55;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .Query .query-heading .head span{
+        color: var(--main);
+    }
+
+
+    .Query .query-heading .dis{
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+
+    .Query .query-heading .dis p{
+        font-size: 20px;
+        width: 70%;
+        margin: auto;
+        color: #3f4f55;
+    }
+
+    .Query .query-heading .line-div{
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Query .query-heading .line-div .line{
+        height: 4px;
+        width: 100px;
+        background: var(--main);
+        border-radius: 4px;
+        margin: 15px 0px;
+    }
+
+    .Query .query-form{
+
+        width: 55%;
+        margin: 42px 270px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        -webkit-box-shadow: 2px 2px 20px -3px rgb(0 0 0 / 64%);
+    }
+
+    .Query .query-form form{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+
+
+    .Query .query-form form .input-div:nth-child(1){flex-basis: 49%;margin-right: 1%;}
+    .Query .query-form form .input-div:nth-child(1) input{width: 100%;border: 1px solid #e9e9e9;padding: 10px 20px;color: #000;font-size: 20px;}
+    .Query .query-form form .input-div:nth-child(2){flex-basis: 50%;}
+    .Query .query-form form .input-div:nth-child(2) input{width: 100%;border: 1px solid #e9e9e9;padding: 10px 20px;color: #000;font-size: 20px;}
+    .Query .query-form form .input-div:nth-child(3){flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(3) input{width:100%;border: 1px solid #e9e9e9;padding: 10px 20px;color: #000;font-size: 20px;margin-top: 10px;}
+    .Query .query-form form .input-div:nth-child(4){flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(4) input{width:100%;border: 1px solid #e9e9e9;padding: 10px 20px;color: #000;font-size: 20px;margin: 10px 0px;}
+    .Query .query-form form .input-div:nth-child(5){flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(5) input{width:100%;border: 1px solid #e9e9e9;padding: 10px 20px;color: #000;font-size: 20px;margin-bottom: 10px;}
+    .Query .query-form form .input-div:nth-child(6){flex-basis:100%;display: flex;justify-content: center;align-items: center;margin-bottom: 10px;    background: white;border: 1px solid #e9e9e9;}
+    .Query .query-form form .input-div:nth-child(6) select{width: 50%; border: none;background:none;font-size: 20px;padding: 10px 20px;}
+    .Query .query-form form .input-div:nth-child(6) input{width: 48%; border: none;background:none;font-size: 20px;padding: 10px 20px;}
+    .Query .query-form form .input-div:nth-child(7){flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(7) textarea{width:100%;border: 1px solid #e9e9e9;padding: 10px 20px;color: #000;font-size: 20px;margin-bottom: 10px;}
+    .Query .query-form form .input-div:nth-child(8){flex-basis: 100%;display: flex;justify-content: center;align-items: center;}
+    .Query .query-form form .input-div:nth-child(8) a{font-size: 20px;text-transform: uppercase;border: 1px solid var(--main);color: white;background: var(--main);padding: 15px 25px;border-radius: 4px;margin-bottom: 40px; transition: .3s ease;}
+    .Query .query-form form .input-div:nth-child(8) a:hover{background:#123468}
+
+    /* Detail Pages */
+
+    .detail-main{
+        width: 100%;
+        padding: 25px 0px;
+    }
+
+    .detail-main .detail-main-content{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .detail-main .detail-main-content .detail-left-nav{
+        flex-basis: 30%;
+    }
+    .detail-main .detail-main-content .detail-left-nav .nav-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .detail-main .detail-main-content .detail-left-nav .nav-content a{
+        flex-basis: 100%;
+        padding: 15px 0px;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        color: rgba(0,0,0,0.6);
+        display: flex;
+        align-items: center;
+        transition: .3s ease;
+    }
+
+    .detail-main .detail-main-content .detail-left-nav .nav-content a:hover{
+        color: black;
+    }
+
+    .detail-main .detail-main-content .detail-left-nav .nav-content a img{
+        width: 30px;
+        filter: grayscale(100%);
+        margin-right: 10px;
+    }
+
+    .detail-main .detail-main-content .detail-left-nav .nav-content a:hover img{
+        filter: grayscale(0);
+    }
+
+
+    .detail-main .detail-main-content .detail-right-main{
+        flex-basis: 70%;
+    }
+
+
+
+
+    /* Website Development */
+    .detail-right-main .website-dev-main{
+        padding: 0px 30px;
+    }
+
+    .detail-right-main .website-dev-main .upper-heading{
+        font-size:38px ;
+        text-align: center;
+        margin-bottom: 10px;
+        color: #474747;
+    }
+
+    .detail-right-main .website-dev-main .upper-dis{
+        font-size: 20px;
+        color: #474747;
+        margin-bottom: 15px;
+    }
+    .detail-right-main .website-dev-main .upper-dis p{
+        line-height: 40px;
+    }
+
+    .detail-right-main .website-dev-main .img-section{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .detail-right-main .website-dev-main .img-section img{
+        width: 70%;
+    }
+
+    .detail-right-main .website-dev-main40mid-discribtion{
+        font-size: 20px;
+        color: #474747;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+
+    .detail-right-main .website-dev-main .view-portfolio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .detail-right-main .website-dev-main .view-portfolio a{
+        font-size: 28px;
+        color: black;
+        border: 1px solid black;
+        padding: 3px 6px;
+        border-radius: 4px;
+        transition: .3s ease;
+    }
+
+    .detail-right-main .website-dev-main .view-portfolio a:hover{
+        background: var(--main);
+        color: white;
+        border: 1px solid var(--main);
+    }
+
+
+    /* Website Development End */
+
+
+    /* nc-team */
+    .team-hero{
+        width: 100%;
+        background-image: url(../img/team-cover.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .team-hero .team-hero-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;   
+    }
+
+    .team-hero .team-hero-content .heading{
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+        text-shadow: 0px 3px 6px black;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .team-hero .team-hero-content .dis{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+
+    }
+
+    .team-hero .team-hero-content .dis p{
+        width: 70%;
+        background-color: rgba(0,0,0,0.7);
+        border-radius: 4px;
+        padding: 10px;
+        color: white;
+        line-height: 30px;
+        letter-spacing: 2px;
+        font-size: 20px;
+        text-align:center ;
+    }
+
+
+    .team-content-main{
+        width: 100%;
+    }
+
+    .team-content-main .team-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .team-content-main .team-content .team-content-section{
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin: 40px 0px;
+    }
+
+    .team-content-main .team-content .team-content-section .left-section .heading{
+        font-size: 35px;
+        font-weight: 700;
+        color: var(--main);
+        margin-bottom: 15px;
+        padding: 0px 60px;
+    }
+
+    .team-content-main .team-content .team-content-section .left-section .dis{
+        font-size: 20px;
+        line-height: 40px;
+        padding: 0px 60px;
+    }
+
+    .team-content-main .team-content .team-content-section .right-section .heading{
+        font-size: 35px;
+        font-weight: 700;
+        color: var(--main);
+        margin-bottom: 15px;
+        padding: 0px 60px;
+    }
+
+    .team-content-main .team-content .team-content-section .right-section .dis{
+        font-size: 20px;
+        line-height: 40px;
+        padding: 0px 60px;
+    }
+
+    .team-content-main .team-content .team-content-section:nth-child(1) .left-section{
+        flex-basis: 40%;
+    }
+
+    .team-content-main .team-content .team-content-section:nth-child(1) .right-section{
+        flex-basis: 60%;
+    }
+
+
+    .team-content-main .team-content .team-content-section:nth-child(2) .left-section{
+        flex-basis: 60%;
+    }
+
+    .team-content-main .team-content .team-content-section:nth-child(2) .right-section{
+        flex-basis: 40%;
+    }
+
+
+    .team-content-main .team-content .team-content-section:nth-child(3) .left-section{
+        flex-basis: 40%;
+    }
+
+    .team-content-main .team-content .team-content-section:nth-child(3) .right-section{
+        flex-basis: 60%;
+    }
+
+
+    .team-content-main .team-content .team-content-section:nth-child(4) .left-section{
+        flex-basis: 60%;
+    }
+
+    .team-content-main .team-content .team-content-section:nth-child(4) .right-section{
+        flex-basis: 40%;
+    }
+
+
+    .team-content-main .team-content .team-content-section:nth-child(5) .left-section{
+        flex-basis: 40%;
+    }
+
+    .team-content-main .team-content .team-content-section:nth-child(5) .right-section{
+        flex-basis: 60%;
+    }
+
+    .ncteam-hero-content p{
+        font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 70px 0px;
+    filter: drop-shadow(8px 16px 11px black);
+}
+   .team-content-main .team-content .team-content-section .left-section .heading{padding: 0px;} 
+     .team-content-main .team-content .team-content-section .left-section .dis {padding: 0px;}
+       
+
+    /* nc-team End */
+
+
+
+    /* Detail Pages End */
+    /*  */
+
+
+
+
+
+
+
+
+
+
+    /*==============================================service====================================================*/
+    @media(max-width: 1200px){
+
+       /*==============================================Services inside styling====================================================*/  
+       .detail-right-main .website-dev-main .upper-heading {font-size: 38px;}
+       .detail-right-main .website-dev-main {padding: 20px 30px;}
+       .detail-right-main .website-dev-main .upper-dis p {line-height: 30px;}
+       .detail-right-main .website-dev-main .upper-dis {font-size: 20px;}
+
+       .detail-right-main .website-dev-main .view-portfolio a {font-size: 20px;}
+       .mid-discribtion{font-size: 20px;}
+       .detail-right-main .website-dev-main .view-portfolio a {font-size: 22px;}
+
+       /*==============================================Portfolio====================================================*/
+       .protfolio-hero .protfolio-hero-content {padding: 160px 0px;}
+       .protfolio-hero .protfolio-hero-content p {font-size: 30px;}
+       .protfolio-hero .protfolio-hero-content p span {font-size: 44px;}
+       .portfolio-section .portfolio-content .portfolio-card {flex-basis: 33%;height: 600px;}
+       .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 28px;}
+       .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 20px;}
+       .portfolio-section .portfolio-content .portfolio-card .dis {width: 75%;padding: 20px;font-size: 15px;background: rgba(0,0,0,0.7);}
+       .portfolio-section .portfolio-content .portfolio-card .work-tag a {padding: 12px;} 
+
+      /* =======================================ncteam===================*/
+
+       .team-content-main .team-content .team-content-section {flex-wrap: unset;}
+              .team-content-main .team-content .team-content-section .right-section .dis {padding: 0px 25px;}
+        .team-content-main .team-content .team-content-section .right-section .heading {font-size: 25px;padding: 0px 25px;}
+        .team-content-main .team-content .team-content-section .right-section .dis {font-size: 18px;line-height: 30px;}
+         .team-content-main .team-content .team-content-section .left-section .heading {font-size: 25px;}
+          .team-hero .team-hero-content .dis p {width: 65%; line-height: 22px;font-size: 18px;}
+        .team-content-main .team-content .team-content-section .left-section .dis {font-size: 18px;line-height: 30px;padding: 0px 25px;}
+    .team-content-main .team-content .team-content-section .left-section .heading {font-size: 25px;padding: 0px 25px;margin-top: 15px;}
+     .team-content-main .team-content .team-content-section .right-section .heading {font-size: 22px;font-weight: 700;margin-top: 10px;padding: 0px 25px;}
+        .team-content-main .team-content .team-content-section .left-section .heading {font-size: 25px;padding: 0px 25px;}
+    .team-content-main .team-content .team-content-section .left-section .dis {font-size: 18px;line-height: 30px;padding: 0px 25px;}
+   }
+   @media(max-width: 1100px){
+    .Query .query-form form .input-div:nth-child(6) select {width: 85%;    font-size: 16px;}
+    .Query .query-form form .input-div:nth-child(6) input {width: 48%;font-size: 18px;}
+
+    
+    /*==============================================Portfolio====================================================*/
+    .protfolio-hero .protfolio-hero-content {padding: 160px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 30px;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 44px;}
+    .portfolio-section .portfolio-content .portfolio-card {flex-basis: 33%;height: 560px;}
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 28px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 20px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 75%;padding: 20px;font-size: 14px;background: rgba(0,0,0,0.7);}
+    .portfolio-section .portfolio-content .portfolio-card .work-tag a {padding: 12px;}  
+
+    /*==============================================Services inside styling====================================================*/  
+    .detail-right-main .website-dev-main .upper-heading {font-size: 38px;}
+    .detail-right-main .website-dev-main {padding: 20px 30px;}
+    .detail-right-main .website-dev-main .upper-dis p {line-height: 28px;}
+    .detail-right-main .website-dev-main .upper-dis {font-size: 18px;}
+    
+    .detail-right-main .website-dev-main .view-portfolio a {font-size: 18px;}
+    .mid-discribtion{font-size: 18px;}
+    .detail-right-main .website-dev-main .view-portfolio a {font-size: 22px;}
+
+    /*=====================ncteam===============================*/
+
+    .team-content-main .team-content .team-content-section {flex-wrap: unset;}
+              .team-content-main .team-content .team-content-section .right-section .dis {padding: 0px 25px;}
+        .team-content-main .team-content .team-content-section .right-section .heading {font-size: 20px;padding: 0px 25px;}
+        .team-content-main .team-content .team-content-section .right-section .dis {font-size: 15px;line-height: 25px;}
+         .team-content-main .team-content .team-content-section .left-section .heading {font-size: 20px;}
+          .team-hero .team-hero-content .dis p {width: 65%; line-height: 22px;font-size: 15px;}
+        .team-content-main .team-content .team-content-section .left-section .dis {font-size: 15px;line-height: 26px;padding: 0px 25px;}
+    .team-content-main .team-content .team-content-section .left-section .heading {font-size: 20px;padding: 0px 25px;margin-top: 15px;}
+     .team-content-main .team-content .team-content-section .right-section .heading {font-size: 18px;font-weight: 700;margin-top: 10px;padding: 0px 25px;}
+        .team-content-main .team-content .team-content-section .left-section .heading {font-size: 20px;padding: 0px 25px;}
+    .team-content-main .team-content .team-content-section .left-section .dis {font-size: 15px;line-height: 26px;padding: 0px 25px;}
+}
+@media(max-width: 1050px){
+   /* ========================portfolio=============================*/
+
+   .portfolio-section .portfolio-content .portfolio-card .dis {font-size: 13px;}
+   .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 19px;}
+}
+
+@media(max-width: 1000px){
+    .Query .query-form form .input-div:nth-child(6) select {width: 85%;    font-size: 16px;}
+    .Query .query-form form .input-div:nth-child(6) input {width: 48%;font-size: 18px;}
+    /*==============================================Portfolio====================================================*/
+    .protfolio-hero .protfolio-hero-content {padding: 160px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 30px;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 44px;}
+    .portfolio-section .portfolio-content .portfolio-card {flex-basis: 49%;height: 730px;}
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 28px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 20px !important;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 75%;padding: 24px;font-size: 18px;background: rgba(0,0,0,0.7);}
+    .portfolio-section .portfolio-content .portfolio-card .work-tag a {padding: 12px;}  
+
+    /*==============================================Services inside styling====================================================*/  
+    .detail-right-main .website-dev-main .upper-heading {font-size: 32px;}
+    .detail-right-main .website-dev-main {padding: 20px 30px;}
+    .detail-right-main .website-dev-main .upper-dis p {line-height: 26px;}
+    .detail-right-main .website-dev-main .upper-dis {font-size: 16px;}
+    
+    .detail-right-main .website-dev-main .view-portfolio a {font-size: 20px;}
+    .mid-discribtion{font-size: 16px;}
+    .detail-right-main .website-dev-main .view-portfolio a {font-size: 18px;}
+    /*==============================================Portfolio====================================================*/
+    .protfolio-hero .protfolio-hero-content {padding: 160px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 26px;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 40px; }
+    .portfolio-section .portfolio-content .portfolio-card {flex-basis: 33%!important;height: 680px;background-position: center !important;}
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 28px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 22px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 75%;padding: 20px;font-size: 15px;background: rgba(0,0,0,0.7);} 
+}
+@media(max-width: 900px){
+    .Query .query-form form .input-div:nth-child(6) select {width: 85%;    font-size: 16px;}
+    .Query .query-form form .input-div:nth-child(6) input {width: 48%;font-size: 16px;}
+    /*==============================================Portfolio====================================================*/
+    .protfolio-hero .protfolio-hero-content {padding: 160px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 26px !important;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 40px !important;}
+    .portfolio-section .portfolio-content .portfolio-card {flex-basis: 49%;height: 670px;}
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 28px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 22px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 75%;padding: 20px;font-size: 15px;background: rgba(0,0,0,0.7);} 
+    .portfolio-section .portfolio-content .portfolio-card .work-tag a {padding: 12px;}
+
+    /*==============================================Services inside styling====================================================*/  
+    .detail-right-main .website-dev-main .upper-heading {font-size: 28px;}
+    .detail-right-main .website-dev-main {padding: 20px 30px;}
+    .detail-right-main .website-dev-main .upper-dis p {line-height: 26px;}
+    .detail-right-main .website-dev-main .upper-dis {font-size: 15px;}
+    
+    .detail-right-main .website-dev-main .view-portfolio a {font-size: 18px;}
+    .mid-discribtion{font-size: 14px;}
+    .detail-right-main .website-dev-main .view-portfolio a {font-size: 14px;}
+
+    /*==============================================Portfolio====================================================*/
+    .protfolio-hero .protfolio-hero-content {padding: 160px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 26px;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 40px; }
+    .portfolio-section .portfolio-content .portfolio-card {flex-basis: 49%!important;height: 670px;background-position: center !important;}
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 28px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 22px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 75%;padding: 20px;font-size: 15px;background: rgba(0,0,0,0.7);} 
+}
+
+@media(max-width: 800px){
+    .serve-hero .serve-hero-content p {font-size: 20px;color: white;text-align: center;padding: 80px 60px;}
+    .serve-navigation .serve-navigation-content a {flex-basis: 40%;margin: 10px 20px;}
+
+    .serve-navigation .serve-navigation-content {margin: 30px 0px;}
+    .website-dev {background-color: gainsboro;}
+    .website-dev .website-right {flex-basis: 45%;height: 240px;}
+    .website-dev .website-left .left-content .heading {font-size: 24px;}
+    .website-dev .website-left .left-content .dis {font-size: 20px;    padding: 20px 25px;}
+    .website-dev .website-left .left-content .btn a {padding: 8px;font-size: 16px;}
+    
+
+
+    .mobile-app .mobile-right .right-content .heading {font-size: 24px;margin-top: 10px;}
+    .mobile-app .mobile-right .right-content .dis {font-size: 20px;padding: 20px 25px;}
+    .mobile-app .mobile-right .right-content .btn a{padding: 8px;font-size: 16px;}
+    .mobile-app .mobile-left{flex-basis: 45%;height: 240px;}
+
+    .web-design {background-color: gainsboro;}
+    .web-design .web-design-left .left-content .heading {font-size: 24px;margin-top: 25px;}
+    .web-design .web-design-left .left-content .dis {font-size: 20px;padding: 20px 25px;}
+
+    .web-design .web-design-left .left-content .btn a{padding: 8px;font-size: 16px;}
+    .web-design .web-design-right{flex-basis: 45%;height: 240px;}
+    
+    
+    .Hosting .Hosting-right .right-content .heading {font-size: 24px;}
+    .Hosting .Hosting-right .right-content .dis {font-size: 20px;padding: 20px 25px;}
+    .Hosting .Hosting-left{flex-basis: 45%;height: 240px;}
+    .team-aug {background-color: gainsboro;}
+    .team-aug .team-aug-left .left-content .heading {font-size: 24px;}
+    .team-aug .team-aug-left .left-content .dis {font-size: 20px;padding: 20px 25px;}
+
+    .team-aug .team-aug-right {flex-basis: 45%;height: 240px;}
+    
+    .Business-apps .Business-apps-left {flex-basis: 45%;height: 240px;}
+    .Business-apps .Business-apps-right .right-content .heading {font-size: 24px;margin-top: 10px;}
+    .Business-apps .Business-apps-right .right-content .dis {font-size: 20px;padding: 20px 25px;}
+    .Business-apps .Business-apps-right .right-content .btn a {padding: 8px;font-size: 16px;}
+    .Query .query-heading .head {font-size: 32px;padding-bottom: 5px;}
+    .Query .query-heading .dis p {font-size: 18px;}
+
+    .Query .query-form form {width: 80%;}
+    .Query .query-form form .input-div:nth-child(1) {flex-basis: 49%;margin-right:1%;}
+    .Query .query-form form .input-div:nth-child(1) input { padding: 15px 20px;font-size: 14px;}
+    .Query .query-form form .input-div:nth-child(2) {flex-basis: 49%;margin-left: 1%;margin-top: 0px;}
+    .Query .query-form form .input-div:nth-child(2) input {padding: 15px 20px; font-size: 14px;margin-top: 0px;}
+    .Query .query-form form .input-div:nth-child(3) input {font-size: 14px;padding: 15px 20px;}
+    .Query .query-form form .input-div:nth-child(4) input {font-size: 14px;padding: 15px 20px;}
+    .Query .query-form form .input-div:nth-child(6) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(6) input {width: 80%;font-size: 14px;padding: 14px 10px;}
+    .Query .query-form form .input-div:nth-child(6) select {width: 80%;font-size: 14px;padding: 14px 20px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(5) input {font-size: 14px;padding: 15px 20px}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(7) textarea { padding: 12px 20px;font-size: 14px;}
+    .Query .query-form form .input-div:nth-child(8) a {font-size: 14px;padding: 6px 8px;margin-bottom: 20px;}
+    .privacy-policy{font-size: 15px;text-align: center;}
+
+    /*==============================================Services inside styling====================================================*/  
+    .detail-main .detail-main-content .detail-left-nav {flex-basis: 100%;}
+    .detail-main .detail-main-content .detail-left-nav .nav-content a {flex-basis: 46%;}
+    .detail-right-main .website-dev-main .upper-heading {font-size: 28px;}
+    .detail-right-main .website-dev-main {padding: 20px 30px;}
+    .detail-right-main .website-dev-main .upper-dis p {line-height: 26px;}
+    .detail-right-main .website-dev-main .upper-dis {font-size: 15px;}
+    .detail-main .detail-main-content .detail-right-main {flex-basis: 100%;}
+    .detail-right-main .website-dev-main .view-portfolio a {font-size: 18px;}
+    .mid-discribtion{font-size: 14px;}
+    .detail-right-main .website-dev-main .view-portfolio a {font-size: 14px;}
+
+    /*==============================================Contact====================================================*/  
+    .Contact-us .Contact-us-content h2 {font-size: 32px;}
+    .Contact-us .Contact-us-content {padding: 110px 0px}
+    .privacy-policy{font-size: 12px;text-align: center;}
+    .Contact-us .Contact-us-content p {width: 48%;}
+    
+    /*==============================================Portfolio====================================================*/
+    .protfolio-hero .protfolio-hero-content {padding: 160px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 26px !important;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 40px!important; }
+
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 28px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 22px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 75%;padding: 20px;font-size: 15px;background: rgba(0,0,0,0.7);}   
+/*
+    ============================ncteam================================*/
+    .team-content-main .team-content .team-content-section {flex-wrap: unset;}
+        .team-content-main .team-content .team-content-section .right-section .dis {padding: 0px 25px;}
+        .team-content-main .team-content .team-content-section .right-section .heading {font-size: 18px;padding: 0px 25px;}
+        .team-content-main .team-content .team-content-section .right-section .dis {font-size: 14px;line-height: 25px;}
+          .team-content-section .left-section img{width:400px}
+         .team-content-section .right-section .adjust-img4 img{width: 35 0px;margin-bottom: 30px;}
+        .team-content-section .right-section .adjust-img5 img{width: 300px;margin-bottom: 30px;}
+        .team-content-main .team-content .team-content-section .left-section .heading {font-size: 20px;}
+          .team-hero .team-hero-content .dis p {width: 65%; line-height: 22px;font-size: 14px;}
+        .team-content-main .team-content .team-content-section .left-section .dis {font-size: 14px;line-height: 26px;padding: 0px 25px;}
+    .team-content-main .team-content .team-content-section .left-section .heading {font-size: 18px;padding: 0px 25px;margin-top: 15px;}
+     .team-content-main .team-content .team-content-section .right-section .heading {font-size: 16px;font-weight: 700;margin-top: 10px;padding: 0px 25px;}
+        .team-content-main .team-content .team-content-section .left-section .heading {font-size: 18px;padding: 0px 25px;}
+    .team-content-main .team-content .team-content-section .left-section .dis {font-size: 14px;line-height: 26px;padding: 0px 25px;}
+ 
+        
+}
+
+
+@media(max-width: 750px){
+    .serve-hero .serve-hero-content p {font-size: 20px;color: white;text-align: center;padding: 80px 60px;}
+    .serve-navigation .serve-navigation-content a {flex-basis: 40%;}
+    .website-dev {background-color: gainsboro;}
+    .website-dev .website-right {flex-basis: 45%;height: 210px;}
+    .website-dev .website-left .left-content .heading {font-size: 22px;}
+    .website-dev .website-left .left-content .dis {font-size: 18px;    padding: 20px 25px;}
+    .website-dev .website-left .left-content .btn a {padding: 8px;font-size: 14px;}
+    
+
+
+    .mobile-app .mobile-right .right-content .heading {font-size: 22px;margin-top: 10px;}
+    .mobile-app .mobile-right .right-content .dis {font-size: 18px;padding: 20px 25px;}
+    .mobile-app .mobile-right .right-content .btn a{padding: 8px;font-size: 14px;}
+    .mobile-app .mobile-left{flex-basis: 45%;height: 210px;}
+
+    .web-design {background-color: gainsboro;}
+    .web-design .web-design-left .left-content .heading {font-size: 22px;margin-top: 25px;}
+    .web-design .web-design-left .left-content .dis {font-size: 18px;padding: 20px 25px;}
+
+    .web-design .web-design-left .left-content .btn a{padding: 8px;font-size: 14px;}
+    .web-design .web-design-right{flex-basis: 45%;height: 210px;}
+    
+    
+    .Hosting .Hosting-right .right-content .heading {font-size: 22px;}
+    .Hosting .Hosting-right .right-content .dis {font-size: 18px;padding: 20px 25px;}
+    .Hosting .Hosting-left{flex-basis: 45%;height: 210px;}
+    .team-aug {background-color: gainsboro;}
+    .team-aug .team-aug-left .left-content .heading {font-size: 22px;}
+    .team-aug .team-aug-left .left-content .dis {font-size: 18px;padding: 20px 25px;}
+
+    .team-aug .team-aug-right {flex-basis: 45%;height: 210px;}
+    
+    .Business-apps .Business-apps-left {flex-basis: 45%;height: 210px;}
+    .Business-apps .Business-apps-right .right-content .heading {font-size: 22px;margin-top: 10px;}
+    .Business-apps .Business-apps-right .right-content .dis {font-size: 18px;padding: 20px 25px;}
+    .Business-apps .Business-apps-right .right-content .btn a {padding: 8px;font-size: 14px;}
+    .Query .query-heading .head {font-size: 20px;padding-bottom: 5px;}
+    .Query .query-heading .dis p {font-size: 16px;}
+
+    .Query .query-form form {width: 80%;}
+    .Query .query-form form .input-div:nth-child(1) {flex-basis: 100%;margin-right: 0%;}
+    .Query .query-form form .input-div:nth-child(1) input { padding: 14px 20px;font-size: 14px;}
+    .Query .query-form form .input-div:nth-child(2) {flex-basis: 100%;margin-left: 0px;}
+    .Query .query-form form .input-div:nth-child(2) input {padding: 14px 20px; font-size: 14px;margin-top: 10px;}
+    .Query .query-form form .input-div:nth-child(3) input {font-size: 14px;}
+    .Query .query-form form .input-div:nth-child(4) input {font-size: 14px;padding: 14px 20px;}
+    .Query .query-form form .input-div:nth-child(6) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(6) input {width: 80%;font-size: 14px;padding: 12px 10px;}
+    .Query .query-form form .input-div:nth-child(6) select {width: 80%;font-size: 13px;padding: 12px 20px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(5) input {font-size: 14px;padding: 14px 20px}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(7) textarea { padding: 12px 20px;font-size: 14px;}
+    .Query .query-form form .input-div:nth-child(8) a {font-size: 13px;padding: 6px 8px;margin-bottom: 20px;}
+    .privacy-policy{font-size: 13px;text-align: center;}
+
+    /*==============================================Contact====================================================*/  
+    .Contact-us .Contact-us-content h2 {font-size: 32px;}
+    .Contact-us .Contact-us-content {padding: 90px 0px}
+    .privacy-policy{font-size: 12px;text-align: center;}
+    .Contact-us .Contact-us-content p {width: 48%;} 
+
+    /*==============================================Portfolio====================================================*/
+    .protfolio-hero .protfolio-hero-content {padding: 160px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 26px;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 40px; }
+
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 28px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 22px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 80%;font-size: 13px;background: rgba(0,0,0,0.7);}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 75%;padding: 20px;font-size: 14px;} 
+    
+    /*===============================ncteam============================*/
+
+    .team-content-main .team-content .team-content-section {flex-wrap: wrap;}
+         .team-content-main .team-content .team-content-section .right-section .dis {font-size: 14px;line-height: 26px;padding: 0px 25px;}
+    .team-hero .team-hero-content .heading {font-size: 28px;}    
+    
+    .team-hero .team-hero-content .dis p {width: 65%; line-height: 22px;font-size: 14px;}
+    .team-content-section .left-section img{width:380px}
+    .team-content-section .right-section{flex-basis: 100%;}
+   .team-content-main .team-content .team-content-section .right-section .heading {font-size: 16px;font-weight: 700;margin-top: 10px;padding: 0px 25px;}
+    .team-content-main .team-content .team-content-section:nth-child(1) .right-section {flex-basis: 100%;}   
+    .team-content-main .team-content .team-content-section:nth-child(2) .left-section {flex-basis: 100%;}
+    .team-content-main .team-content .team-content-section .left-section .dis {font-size: 14px;line-height: 26px;padding: 0px 25px;}
+    .team-content-main .team-content .team-content-section .left-section .heading {font-size: 18px;padding: 0px 25px;margin-top: 15px;}
+    .team-content-main .team-content .team-content-section {margin: 10px 0px;}
+    .team-content-main .team-content .team-content-section:nth-child(3) .right-section {flex-basis: 100%;}
+    .team-content-main .team-content .team-content-section:nth-child(4) .left-section {flex-basis: 100%;}
+    .team-content-main .team-content .team-content-section .left-section .heading {font-size: 18px;padding: 0px 25px;}
+    .team-content-main .team-content .team-content-section .left-section .dis {font-size: 14px;line-height: 26px;padding: 0px 25px;}
+    .team-content-main .team-content .team-content-section:nth-child(5) .right-section {flex-basis: 100%;}
+    .team-content-section .right-section .adjust-img4 img{width: 300px;margin-bottom: 30px;}
+    .team-content-section .right-section .adjust-img5 img{width: 300px;margin-bottom: 30px;}
+     .team-content-section:nth-child(2){background-color: gainsboro;}
+     .team-content-section:nth-child(4){background-color: gainsboro;} 
+     .team-content-section:nth-child(6){background-color: gainsboro;}
+      .ncteam-hero-content p{font-size: 20px;margin: 0x 15px !important;}
+      .team-content-section .left-section {flex-basis: 100%;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+
+}
+
+
+@media(max-width: 700px){
+    .serve-hero .serve-hero-content p {font-size: 20px;color: white;text-align: center;padding: 80px 60px !important;}
+    .serve-navigation .serve-navigation-content a {flex-basis: 40%;}
+    .website-dev {background-color: gainsboro;}
+    .website-dev .website-right {flex-basis: 45%;height: 210px;}
+    .website-dev .website-left .left-content .heading {font-size: 22px;}
+    .website-dev .website-left .left-content .dis {font-size: 18px;    padding: 20px 25px;}
+    .website-dev .website-left .left-content .btn a {padding: 8px;font-size: 14px;}
+    
+
+
+    .mobile-app .mobile-right .right-content .heading {font-size: 22px;margin-top: 10px;}
+    .mobile-app .mobile-right .right-content .dis {font-size: 18px;padding: 20px 25px;}
+    .mobile-app .mobile-right .right-content .btn a{padding: 8px;font-size: 14px;}
+    .mobile-app .mobile-left{flex-basis: 45%;height: 210px;}
+
+    .web-design {background-color: gainsboro;}
+    .web-design .web-design-left .left-content .heading {font-size: 22px;margin-top: 25px;}
+    .web-design .web-design-left .left-content .dis {font-size: 18px;padding: 20px 25px;}
+
+    .web-design .web-design-left .left-content .btn a{padding: 8px;font-size: 14px;}
+    .web-design .web-design-right{flex-basis: 45%;height: 210px;}
+    
+    
+    .Hosting .Hosting-right .right-content .heading {font-size: 22px;}
+    .Hosting .Hosting-right .right-content .dis {font-size: 18px;padding: 20px 25px;}
+    .Hosting .Hosting-left{flex-basis: 45%;height: 210px;}
+    .team-aug {background-color: gainsboro;}
+    .team-aug .team-aug-left .left-content .heading {font-size: 22px;}
+    .team-aug .team-aug-left .left-content .dis {font-size: 18px;padding: 20px 25px;}
+
+    .team-aug .team-aug-right {flex-basis: 45%;height: 210px;}
+    
+    .Business-apps .Business-apps-left {flex-basis: 45%;height: 210px;}
+    .Business-apps .Business-apps-right .right-content .heading {font-size: 22px;margin-top: 10px;}
+    .Business-apps .Business-apps-right .right-content .dis {font-size: 18px;padding: 20px 25px;}
+    .Business-apps .Business-apps-right .right-content .btn a {padding: 8px;font-size: 14px;}
+    .Query .query-heading .head {font-size: 20px;padding-bottom: 5px;}
+    .Query .query-heading .dis p {font-size: 16px;}
+
+    .Query .query-form form {width: 80%;}
+    .Query .query-form form .input-div:nth-child(1) {flex-basis: 100%;margin-right: 0%;}
+    .Query .query-form form .input-div:nth-child(1) input { padding: 14px 20px;font-size: 14px;}
+    .Query .query-form form .input-div:nth-child(2) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(2) input {padding: 14px 20px; font-size: 14px;margin-top: 10px;}
+    .Query .query-form form .input-div:nth-child(3) input {font-size: 14px;}
+    .Query .query-form form .input-div:nth-child(4) input {font-size: 14px;padding: 14px 20px;}
+    .Query .query-form form .input-div:nth-child(6) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(6) input {width: 80%;font-size: 14px;padding: 12px 10px;}
+    .Query .query-form form .input-div:nth-child(6) select {width: 80%;font-size: 13px;padding: 12px 20px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(5) input {font-size: 14px;padding: 14px 20px}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(7) textarea { padding: 12px 20px;font-size: 14px;}
+    .Query .query-form form .input-div:nth-child(8) a {font-size: 13px;padding: 6px 8px;margin-bottom: 20px;}
+    .privacy-policy{font-size: 13px;text-align: center;}
+
+    /*==============================================Contact====================================================*/  
+    .Contact-us .Contact-us-content h2 {font-size: 32px;}
+    .Contact-us .Contact-us-content {padding: 75px 0px}
+    .privacy-policy{font-size: 12px;text-align: center;}
+    .Contact-us .Contact-us-content p {width: 48%;}
+
+    /*==============================================Portfolio====================================================*/
+    .protfolio-hero .protfolio-hero-content {padding: 160px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 26px;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 40px;}
+    
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 28px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 17px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 80%;font-size: 13px;background: rgba(0,0,0,0.7);}
+    .portfolio-section .portfolio-content .portfolio-card .dis {font-size: 13px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 75%;padding: 20px;font-size: 13px;}     
+
+      /*======================================ncteam===================================*/
+         .team-content-section .left-section img{width:400px}
+         .team-content-section .right-section .adjust-img4 img{width: 35 0px;margin-bottom: 30px;}
+        .team-content-section .right-section .adjust-img5 img{width: 300px;margin-bottom: 30px;}
+         .ncteam-hero-content p{font-size: 20px;margin: 0x 15px !important;}
+}
+
+@media(max-width: 650px){
+    .serve-hero .serve-hero-content p {font-size: 20px;color: white;text-align: center;padding: 80px 60px !important;}
+    .serve-navigation .serve-navigation-content a {flex-basis: 40%;}
+    .website-dev {background-color: gainsboro;}
+    .website-dev .website-right {flex-basis: 45%;height: 210px;}
+    .website-dev .website-left .left-content .heading {font-size: 22px;}
+    .website-dev .website-left .left-content .dis {font-size: 18px;    padding: 20px 25px;}
+    .website-dev .website-left .left-content .btn a {padding: 8px;font-size: 14px;}
+    
+
+
+    .mobile-app .mobile-right .right-content .heading {font-size: 22px;margin-top: 10px;}
+    .mobile-app .mobile-right .right-content .dis {font-size: 18px;padding: 20px 25px;}
+    .mobile-app .mobile-right .right-content .btn a{padding: 8px;font-size: 14px;}
+    .mobile-app .mobile-left{flex-basis: 45%;height: 210px;}
+
+    .web-design {background-color: gainsboro;}
+    .web-design .web-design-left .left-content .heading {font-size: 22px;margin-top: 25px;}
+    .web-design .web-design-left .left-content .dis {font-size: 18px;padding: 20px 25px;}
+
+    .web-design .web-design-left .left-content .btn a{padding: 8px;font-size: 14px;}
+    .web-design .web-design-right{flex-basis: 45%;height: 210px;}
+    
+    
+    .Hosting .Hosting-right .right-content .heading {font-size: 22px;}
+    .Hosting .Hosting-right .right-content .dis {font-size: 18px;padding: 20px 25px;}
+    .Hosting .Hosting-left{flex-basis: 45%;height: 210px;}
+    .team-aug {background-color: gainsboro;}
+    .team-aug .team-aug-left .left-content .heading {font-size: 22px;}
+    .team-aug .team-aug-left .left-content .dis {font-size: 18px;padding: 20px 25px;}
+
+    .team-aug .team-aug-right {flex-basis: 45%;height: 210px;}
+    
+    .Business-apps .Business-apps-left {flex-basis: 45%;height: 210px;}
+    .Business-apps .Business-apps-right .right-content .heading {font-size: 22px;margin-top: 10px;}
+    .Business-apps .Business-apps-right .right-content .dis {font-size: 18px;padding: 20px 25px;}
+    .Business-apps .Business-apps-right .right-content .btn a {padding: 8px;font-size: 14px;}
+    .Query .query-heading .head {font-size: 20px;padding-bottom: 5px;}
+    .Query .query-heading .dis p {font-size: 16px;}
+
+    .Query .query-form form {width: 80%;}
+    .Query .query-form form .input-div:nth-child(1) {flex-basis: 100%;margin-right: 0%;}
+    .Query .query-form form .input-div:nth-child(1) input { padding: 14px 20px;font-size: 14px;}
+    .Query .query-form form .input-div:nth-child(2) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(2) input {padding: 14px 20px; font-size: 14px;margin-top: 10px;}
+    .Query .query-form form .input-div:nth-child(3) input {font-size: 14px;}
+    .Query .query-form form .input-div:nth-child(4) input {font-size: 14px;padding: 14px 20px;}
+    .Query .query-form form .input-div:nth-child(6) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(6) input {width: 80%;font-size: 14px;padding: 12px 10px;}
+    .Query .query-form form .input-div:nth-child(6) select {width: 80%;font-size: 13px;padding: 12px 20px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(5) input {font-size: 14px;padding: 14px 20px}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(7) textarea { padding: 12px 20px;font-size: 14px;}
+    .Query .query-form form .input-div:nth-child(8) a {font-size: 13px;padding: 6px 8px;margin-bottom: 20px;}
+    .privacy-policy{font-size: 13px;text-align: center;}
+
+    /*==============================================Contact====================================================*/
+
+    .Contact-us .Contact-us-content h2 {font-size: 30px;}
+    .Contact-us .Contact-us-content {padding: 70px 0px}
+    .privacy-policy{font-size: 12px;text-align: center;}
+    .Contact-us .Contact-us-content p {width: 50%;}  
+
+    /*==============================================Portfolio====================================================*/
+    .protfolio-hero .protfolio-hero-content {padding: 160px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 20px !important;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 34px !important;}
+    
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 26px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 30px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 80%;font-size: 15px;background: rgba(0,0,0,0.7);}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 70%;padding: 30px;font-size: 18px;} 
+    .serve-navigation .serve-navigation-content a {flex-basis: 38%;}
+
+     /*======================================ncteam===================================*/
+     .team-content-section .left-section img{width:380px}
+         .team-content-section .right-section .adjust-img4 img{width: 350px;margin-bottom: 30px;}
+        .team-content-section .right-section .adjust-img5 img{width: 300px;margin-bottom: 30px;}
+         .ncteam-hero-content p{font-size: 19px;margin: 0x 15px !important;}
+}
+
+
+@media(max-width: 600px){
+    .serve-hero .serve-hero-content p {font-size: 20px;color: white;text-align: center;padding: 80px 60px !important;}
+    .serve-navigation .serve-navigation-content a {flex-basis: 38%;}
+    .website-dev {background-color: gainsboro;}
+    .website-dev .website-right {flex-basis: 45%;height: 200px;}
+    .website-dev .website-left .left-content .heading {font-size: 20px;}
+    .website-dev .website-left .left-content .dis {font-size: 16px;    padding: 20px 25px;}
+    .website-dev .website-left .left-content .btn a {padding: 5px;font-size: 12px;}
+    
+
+
+    .mobile-app .mobile-right .right-content .heading {font-size: 18px;margin-top: 10px;}
+    .mobile-app .mobile-right .right-content .dis {font-size: 16px;padding: 20px 25px;}
+    .mobile-app .mobile-right .right-content .btn a{padding: 5px;font-size: 12px;}
+    .mobile-app .mobile-left{flex-basis: 45%;height: 200px;}
+
+    .web-design {background-color: gainsboro;}
+    .web-design .web-design-left .left-content .heading {font-size: 18px;margin-top: 25px;}
+    .web-design .web-design-left .left-content .dis {font-size: 16px;padding: 20px 25px;}
+
+    .web-design .web-design-left .left-content .btn a{padding: 5px;font-size: 12px;}
+    .web-design .web-design-right{flex-basis: 45%;height: 200px;}
+    
+    
+    .Hosting .Hosting-right .right-content .heading {font-size: 18px;}
+    .Hosting .Hosting-right .right-content .dis {font-size: 16px;padding: 20px 25px;}
+    .Hosting .Hosting-left{flex-basis: 45%;height: 200px;}
+    .team-aug {background-color: gainsboro;}
+    .team-aug .team-aug-left .left-content .heading {font-size: 18px;}
+    .team-aug .team-aug-left .left-content .dis {font-size: 16px;padding: 20px 25px;}
+
+    .team-aug .team-aug-right {flex-basis: 45%;height: 200px;}
+    
+    .Business-apps .Business-apps-left {flex-basis: 45%;height: 200px;}
+    .Business-apps .Business-apps-right .right-content .heading {font-size: 18px;margin-top: 10px;}
+    .Business-apps .Business-apps-right .right-content .dis {font-size: 16px;padding: 20px 25px;}
+    .Business-apps .Business-apps-right .right-content .btn a {padding: 5px;font-size: 12px;}
+    .Query .query-heading .head {font-size: 18px;padding-bottom: 5px;}
+    .Query .query-heading .dis p {font-size: 15px;}
+
+    .Query .query-form form {width: 80%;}
+    .Query .query-form form .input-div:nth-child(1) {flex-basis: 100%;margin-right: 0%;}
+    .Query .query-form form .input-div:nth-child(1) input { padding: 10px 20px;font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(2) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(2) input {padding: 10px 20px; font-size: 13px;margin-top: 10px;}
+    .Query .query-form form .input-div:nth-child(3) input {font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(4) input {font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(6) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(6) input {width: 80%;font-size: 13px;padding: 7px 10px;}
+    .Query .query-form form .input-div:nth-child(6) select {width: 80%;font-size: 13px;padding: 6px 20px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(5) input {font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(7) textarea { padding: 5px 20px;font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(8) a {font-size: 13px;padding: 6px 8px;margin-bottom: 20px;}
+    .privacy-policy{font-size: 12px;text-align: center;}
+
+    /*==============================================Contact====================================================*/
+
+    .Contact-us .Contact-us-content h2 {font-size: 28px;}
+    .Contact-us .Contact-us-content {padding: 70px 0px}
+    .privacy-policy{font-size: 12px;text-align: center;}
+    .Contact-us .Contact-us-content p {width: 55%;}
+
+    /*==============================================Portfolio====================================================*/
+    .protfolio-hero .protfolio-hero-content {padding: 100px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 20px;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 42px;}
+    .portfolio-section .portfolio-content .portfolio-card {flex-basis: 100%!important;height: 890px!important;}
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 26px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 26px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 80%;font-size: 15px;background: rgba(0,0,0,0.7);}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 70%;padding: 18px;font-size: 18px;} 
+
+      /*======================================ncteam===================================*/
+
+      .team-content-section .left-section img{width:315px}
+         .team-content-section .right-section .adjust-img4 img{width: 300px;margin-bottom: 30px;}
+        .team-content-section .right-section .adjust-img5 img{width: 250px;margin-bottom: 30px;}
+         .ncteam-hero-content p{font-size: 18px;margin: 0x 15px !important;}
+}
+
+
+@media(max-width: 550px){
+    .serve-hero .serve-hero-content p {font-size: 20px;color: white;text-align: center;padding: 80px 80px !important;}
+    .serve-navigation .serve-navigation-content a {flex-basis: 38%;    margin: 8px 20px;padding: 8px;}
+    .website-dev {background-color: gainsboro;}
+    .website-dev .website-right {flex-basis: 45%;height: 200px;}
+    .website-dev .website-left .left-content .heading {font-size: 20px;}
+    .website-dev .website-left .left-content .dis {font-size: 16px;    padding: 20px 25px;}
+    .website-dev .website-left .left-content .btn a {padding: 5px;font-size: 12px;}
+    
+
+
+    .mobile-app .mobile-right .right-content .heading {font-size: 18px;margin-top: 10px;}
+    .mobile-app .mobile-right .right-content .dis {font-size: 16px;padding: 20px 25px;}
+    .mobile-app .mobile-right .right-content .btn a{padding: 5px;font-size: 12px;}
+    .mobile-app .mobile-left{flex-basis: 45%;height: 200px;}
+
+    .web-design {background-color: gainsboro;}
+    .web-design .web-design-left .left-content .heading {font-size: 18px;margin-top: 25px;}
+    .web-design .web-design-left .left-content .dis {font-size: 16px;padding: 20px 25px;}
+
+    .web-design .web-design-left .left-content .btn a{padding: 5px;font-size: 12px;}
+    .web-design .web-design-right{flex-basis: 45%;height: 200px;}
+    
+    
+    .Hosting .Hosting-right .right-content .heading {font-size: 18px;}
+    .Hosting .Hosting-right .right-content .dis {font-size: 16px;padding: 20px 25px;}
+    .Hosting .Hosting-left{flex-basis: 45%;height: 200px;}
+    .team-aug {background-color: gainsboro;}
+    .team-aug .team-aug-left .left-content .heading {font-size: 18px;}
+    .team-aug .team-aug-left .left-content .dis {font-size: 16px;padding: 20px 25px;}
+
+    .team-aug .team-aug-right {flex-basis: 45%;height: 200px;}
+    
+    .Business-apps .Business-apps-left {flex-basis: 45%;height: 200px;}
+    .Business-apps .Business-apps-right .right-content .heading {font-size: 18px;margin-top: 10px;}
+    .Business-apps .Business-apps-right .right-content .dis {font-size: 16px;padding: 20px 25px;}
+    .Business-apps .Business-apps-right .right-content .btn a {padding: 5px;font-size: 12px;}
+    .Query .query-heading .head {font-size: 18px;padding-bottom: 5px;}
+    .Query .query-heading .dis p {font-size: 15px;}
+
+    .Query .query-form form {width: 80%;}
+    .Query .query-form form .input-div:nth-child(1) {flex-basis: 100%;margin-right: 0%;}
+    .Query .query-form form .input-div:nth-child(1) input { padding: 10px 20px;font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(2) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(2) input {padding: 10px 20px; font-size: 13px;margin-top: 10px;}
+    .Query .query-form form .input-div:nth-child(3) input {font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(4) input {font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(6) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(6) input {width: 80%;font-size: 13px;padding: 7px 10px;}
+    .Query .query-form form .input-div:nth-child(6) select {width: 80%;font-size: 13px;padding: 6px 20px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(5) input {font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(7) textarea { padding: 5px 20px;font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(8) a {font-size: 13px;padding: 6px 8px;margin-bottom: 20px;}
+    .privacy-policy{font-size: 12px;text-align: center;}
+
+
+    /*==============================================Contact====================================================*/
+
+
+
+    .Contact-us .Contact-us-content h2 {font-size: 28px;}
+    .Contact-us .Contact-us-content {padding: 70px 0px}
+    .privacy-policy{font-size: 12px;text-align: center;}
+    .Contact-us .Contact-us-content p {width: 55%;}
+
+    /*==============================================Portfolio====================================================*/
+    .protfolio-hero .protfolio-hero-content {padding: 100px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 16px;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 42px;}
+    .portfolio-section .portfolio-content .portfolio-card {flex-basis: 100%;height: 820px !important;}
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 26px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 30px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 80%;font-size: 15px;padding: 13px;background: rgba(0,0,0,0.7);}
+    
+    /*======================================ncteam===================================*/
+
+         .ncteam-hero-content p{font-size: 17px;margin: 0x 15px !important;}
+}   
+
+
+@media(max-width: 500px)
+{
+    .serve-hero .serve-hero-content p {font-size: 20px;color: white;text-align: center;padding: 80px 80px !important;}
+    .serve-navigation .serve-navigation-content a {flex-basis: 35%;    margin: 8px 20px;padding: 5px;}
+    .website-dev {background-color: gainsboro;}
+    .website-dev .website-left .left-content .heading {font-size: 18px;}
+    .website-dev .website-left {flex-basis: 100%;}
+    .website-dev .website-left .left-content .dis {font-size: 15px;    padding: 10px 25px;}
+    .website-dev .website-left .left-content .btn a {padding: 5px;font-size: 12px;}
+    .website-dev .website-right {flex-basis: 90%; height: 290px;clip-path: none;}
+    .mobile-app .mobile-left {flex-basis: 90%; height: 290px;clip-path: none;}
+    .mobile-app .mobile-right .right-content .heading {font-size: 18px;margin-top: 10px;}
+    .mobile-app .mobile-right .right-content .dis {font-size: 15px;}
+    .mobile-app .mobile-right .right-content .btn a{padding: 5px;font-size: 12px;}
+    .mobile-app .mobile-right {flex-basis: 100%;}
+    .mobile-app .mobile-right .right-content .dis {padding: 10px 25px;}
+    .web-design .web-design-left {flex-basis: 100%;}
+    .web-design {background-color: gainsboro;}
+    .web-design .web-design-left .left-content .heading {font-size: 20px;margin-top: 25px;}
+    .web-design .web-design-left .left-content .dis {font-size: 15px;}
+    .web-design .web-design-left .left-content .dis {padding: 10px 25px;}
+    .web-design {padding: 0px 0px;}
+    .web-design .web-design-left .left-content .btn a{padding: 5px;font-size: 12px;}
+    .web-design .web-design-right {flex-basis: 90%;height: 290px; clip-path: none;}
+    
+    .Hosting .Hosting-left {flex-basis: 90%;height: 290px;clip-path: none;}
+    .Hosting .Hosting-right {flex-basis: 100%;}
+    .Hosting .Hosting-right .right-content .heading {font-size: 20px;padding: 10px 25px;}
+    .Hosting .Hosting-right .right-content .dis {font-size: 15px;}
+    .Hosting .Hosting-right .right-content .dis {padding: 0px 25px;}
+    .team-aug {background-color: gainsboro;}
+    .team-aug .team-aug-left .left-content .heading {font-size: 20px;}
+    .team-aug .team-aug-left .left-content .dis {font-size: 15px;}
+    .team-aug .team-aug-left {flex-basis: 100%;}
+    .team-aug .team-aug-left .left-content .dis {padding: 10px 25px;}
+    .team-aug .team-aug-right {flex-basis: 90%;height: 290px;    clip-path: none;}
+    
+    .Business-apps .Business-apps-left {flex-basis: 90%;height: 290px;clip-path: none;}
+    .Business-apps .Business-apps-right {flex-basis: 100%;}
+    .Business-apps .Business-apps-right .right-content .heading {font-size: 20px;margin-top: 10px;}
+    .Business-apps .Business-apps-right .right-content .dis {font-size: 15px;padding: 10px 25px;}
+    .Business-apps .Business-apps-right .right-content .btn a {padding: 5px;font-size: 12px;}
+    .Query .query-heading .head {font-size: 18px;padding-bottom: 5px;}
+    .Query .query-heading .dis p {font-size: 15px;width: 100%;}
+    .Query .query-heading .dis {padding: 0px 25px;}
+    .Query .query-form form {width: 80%;}
+    .Query .query-form form .input-div:nth-child(1) {flex-basis: 100%;margin-right: 0%;}
+    .Query .query-form form .input-div:nth-child(1) input { padding: 10px 20px;font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(2) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(2) input {padding: 10px 20px; font-size: 13px;margin-top: 10px;}
+    .Query .query-form form .input-div:nth-child(3) input {font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(4) input {font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(6) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(6) input {width: 80%;font-size: 13px;padding: 7px 10px;}
+    .Query .query-form form .input-div:nth-child(6) select {width: 80%;font-size: 13px;padding: 6px 20px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(5) input {font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(7) textarea { padding: 5px 20px;font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(8) a {font-size: 13px;padding: 6px 8px;margin-bottom: 20px;}
+    .privacy-policy{font-size: 12px;text-align: center;}
+
+    .detail-main .detail-main-content .detail-left-nav .nav-content a {flex-basis: 85%}
+    .detail-main .detail-main-content .detail-left-nav {flex-basis: 70%;}
+    .detail-right-main .website-dev-main .upper-heading {font-size: 28px;}
+    .detail-right-main .website-dev-main {padding: 25px 30px;}
+    .detail-main .detail-main-content .detail-right-main {flex-basis: 100%;}
+    .detail-right-main .website-dev-main .upper-dis {font-size: 14px;}
+    .detail-right-main .website-dev-main .upper-dis p {line-height: 26px;}
+    .mid-discribtion{font-size: 14px;}
+    .detail-right-main .website-dev-main .view-portfolio a {font-size: 16px;}
+
+
+    /*==============================================Contact====================================================*/
+
+
+
+    .Contact-us .Contact-us-content h2 {font-size: 26px;}
+    .Contact-us .Contact-us-content {padding: 65px 0px}
+    .privacy-policy{font-size: 12px;text-align: center;}
+    .Contact-us .Contact-us-content p {width: 60%;}
+
+    /*==============================================Portfolio====================================================*/
+    .protfolio-hero .protfolio-hero-content {padding: 100px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 18px !important;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 38px !important;}
+
+    .portfolio-section .portfolio-content .portfolio-card {flex-basis: 100%;height: 740px!important;}
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 26px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 30px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 80%;font-size: 15px;padding: 12px;background: rgba(0,0,0,0.7);}
+    /*================================ncteam======================================*/
+     .ncteam-hero-content p{font-size: 15px;margin: 0x 15px !important;}
+}
+
+@media(max-width: 450px){
+    .serve-hero .serve-hero-content p {font-size: 20px;color: white;text-align: center;padding: 80px 50px;}
+    .serve-navigation .serve-navigation-content a {flex-basis: 75%;}
+    .website-dev {background-color: gainsboro;}
+    .website-dev .website-left .left-content .heading {font-size: 18px;}
+    .website-dev .website-left {flex-basis: 100%;}
+    .website-dev .website-left .left-content .dis {font-size: 15px;    padding: 10px 25px;}
+    .website-dev .website-left .left-content .btn a {padding: 5px;font-size: 12px;}
+    .website-dev .website-right {flex-basis: 90%; height: 250px;clip-path: none;}
+    .mobile-app .mobile-left {flex-basis: 90%; height: 250px;clip-path: none;}
+    .mobile-app .mobile-right .right-content .heading {font-size: 18px;margin-top: 10px;}
+    .mobile-app .mobile-right .right-content .dis {font-size: 15px;}
+    .mobile-app .mobile-right .right-content .btn a{padding: 5px;font-size: 12px;}
+    .mobile-app .mobile-right {flex-basis: 100%;}
+    .mobile-app .mobile-right .right-content .dis {padding: 10px 25px;}
+    .web-design .web-design-left {flex-basis: 100%;}
+    .web-design {background-color: gainsboro;}
+    .web-design .web-design-left .left-content .heading {font-size: 20px;margin-top: 25px;}
+    .web-design .web-design-left .left-content .dis {font-size: 15px;}
+    .web-design .web-design-left .left-content .dis {padding: 10px 25px;}
+    .web-design {padding: 0px 0px;}
+    .web-design .web-design-left .left-content .btn a{padding: 5px;font-size: 12px;}
+    .web-design .web-design-right {flex-basis: 90%;height: 250px; clip-path: none;}
+    
+    .Hosting .Hosting-left {flex-basis: 90%;height: 250px;clip-path: none;}
+    .Hosting .Hosting-right {flex-basis: 100%;}
+    .Hosting .Hosting-right .right-content .heading {font-size: 20px;padding: 10px 25px;}
+    .Hosting .Hosting-right .right-content .dis {font-size: 15px;}
+    .Hosting .Hosting-right .right-content .dis {padding: 0px 25px;}
+    .team-aug {background-color: gainsboro;}
+    .team-aug .team-aug-left .left-content .heading {font-size: 20px;}
+    .team-aug .team-aug-left .left-content .dis {font-size: 15px;}
+    .team-aug .team-aug-left {flex-basis: 100%;}
+    .team-aug .team-aug-left .left-content .dis {padding: 10px 25px;}
+    .team-aug .team-aug-right {flex-basis: 90%;height: 250px;    clip-path: none;}
+    
+    .Business-apps .Business-apps-left {flex-basis: 90%;height: 250px;clip-path: none;}
+    .Business-apps .Business-apps-right {flex-basis: 100%;}
+    .Business-apps .Business-apps-right .right-content .heading {font-size: 20px;margin-top: 10px;}
+    .Business-apps .Business-apps-right .right-content .dis {font-size: 15px;padding: 10px 25px;}
+    .Business-apps .Business-apps-right .right-content .btn a {padding: 5px;font-size: 12px;}
+    .Query .query-heading .head {font-size: 18px;padding-bottom: 5px;}
+    .Query .query-heading .dis p {font-size: 15px;width: 100%;}
+    .Query .query-heading .dis {padding: 0px 25px;}
+    .Query .query-form form {width: 80%;}
+    .Query .query-form form .input-div:nth-child(1) {flex-basis: 100%;margin-right: 0%;}
+    .Query .query-form form .input-div:nth-child(1) input { padding: 10px 20px;font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(2) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(2) input {padding: 10px 20px; font-size: 13px;margin-top: 10px;}
+    .Query .query-form form .input-div:nth-child(3) input {font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(4) input {font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(6) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(6) input {width: 80%;font-size: 13px;padding: 7px 10px;}
+    .Query .query-form form .input-div:nth-child(6) select {width: 80%;font-size: 13px;padding: 6px 20px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(5) input {font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(7) textarea { padding: 5px 20px;font-size: 13px;}
+    .Query .query-form form .input-div:nth-child(8) a {font-size: 13px;padding: 6px 8px;margin-bottom: 20px;}
+    .privacy-policy{font-size: 12px;text-align: center;}
+
+    
+    /*==============================================Contact====================================================*/
+
+
+
+    .Contact-us .Contact-us-content h2 {font-size: 22px;}
+    .Contact-us .Contact-us-content {padding: 60px 0px}
+    .privacy-policy{font-size: 12px;text-align: center;}
+    .Contact-us .Contact-us-content p {width: 65%;}
+
+    /*==============================================Portfolio====================================================*/
+    .protfolio-hero .protfolio-hero-content {padding: 90px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 15px;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 30px;}
+    .portfolio-section .portfolio-content .portfolio-card {flex-basis: 100%;height: 670px;}
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 26px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 20px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 80%;font-size: 13px;padding: 12px;background: rgba(0,0,0,0.7);}
+
+    /*==============================================nc-team====================================================*/
+    
+    .team-hero-content .heading{font-size: 14px;font-weight: bold;} 
+    .team-hero-content .dis{font-size: 13px;}
+
+    .team-content-section .left-section img{width: 100%} 
+    .team-content-section .right-section {font-size: 14px;font-weight: bold;}  
+    .team-content-section .right-section  .dis p{font-size: 13px;font-weight:500;}
+    .team-content-section .left-section .heading{font-size: 14px;font-weight: bold;display: unset;}
+    .team-content-section .left-section .dis{font-size: 13px; font-weight: 500;display: unset;}
+    .team-content-section .right-section img{width: 100%} 
+   
+}
+
+
+@media(max-width: 400px){
+    .serve-hero .serve-hero-content p {font-size: 20px;color: white;text-align: center;padding: 80px 35px !important;}
+    .serve-navigation .serve-navigation-content a {flex-basis: 70%;}
+    .website-dev {background-color: gainsboro;}
+    .website-dev .website-left .left-content .heading {font-size: 18px;}
+    .website-dev .website-left {flex-basis: 100%;}
+    .website-dev .website-left .left-content .dis {font-size: 15px;    padding: 10px 25px;}
+    .website-dev .website-left .left-content .btn a {padding: 5px;font-size: 12px;}
+    .website-dev .website-right {flex-basis: 90%; height: 220px;clip-path: none;}
+    .mobile-app .mobile-left {flex-basis: 90%; height: 220px;clip-path: none;}
+    .mobile-app .mobile-right .right-content .heading {font-size: 18px;margin-top: 10px;}
+    .mobile-app .mobile-right .right-content .dis {font-size: 15px;}
+    .mobile-app .mobile-right .right-content .btn a{padding: 5px;font-size: 12px;}
+    .mobile-app .mobile-right {flex-basis: 100%;}
+    .mobile-app .mobile-right .right-content .dis {padding: 10px 25px;}
+    .web-design .web-design-left {flex-basis: 100%;}
+    .web-design {background-color: gainsboro;}
+    .web-design .web-design-left .left-content .heading {font-size: 20px;margin-top: 25px;}
+    .web-design .web-design-left .left-content .dis {font-size: 15px;}
+    .web-design .web-design-left .left-content .dis {padding: 10px 25px;}
+    .web-design {padding: 0px 0px;}
+    .web-design .web-design-left .left-content .btn a{padding: 5px;font-size: 12px;}
+    .web-design .web-design-right {flex-basis: 90%;height: 220px; clip-path: none;}
+    
+    .Hosting .Hosting-left {flex-basis: 90%;height: 220px;clip-path: none;}
+    .Hosting .Hosting-right {flex-basis: 100%;}
+    .Hosting .Hosting-right .right-content .heading {font-size: 20px;padding: 10px 25px;}
+    .Hosting .Hosting-right .right-content .dis {font-size: 15px;}
+    .Hosting .Hosting-right .right-content .dis {padding: 0px 25px;}
+    .team-aug {background-color: gainsboro;}
+    .team-aug .team-aug-left .left-content .heading {font-size: 20px;}
+    .team-aug .team-aug-left .left-content .dis {font-size: 15px;}
+    .team-aug .team-aug-left {flex-basis: 100%;}
+    .team-aug .team-aug-left .left-content .dis {padding: 10px 25px;}
+    .team-aug .team-aug-right {flex-basis: 90%;height: 220px;    clip-path: none;}
+    
+    .Business-apps .Business-apps-left {flex-basis: 90%;height: 220px;clip-path: none;}
+    .Business-apps .Business-apps-right {flex-basis: 100%;}
+    .Business-apps .Business-apps-right .right-content .heading {font-size: 20px;margin-top: 10px;}
+    .Business-apps .Business-apps-right .right-content .dis {font-size: 15px;padding: 10px 25px;}
+    .Business-apps .Business-apps-right .right-content .btn a {padding: 5px;font-size: 12px;}
+    .Query .query-heading .head {font-size: 18px;padding-bottom: 5px;}
+    .Query .query-heading .dis p {font-size: 15px;width: 100%;}
+    .Query .query-heading .dis {padding: 0px 25px;}
+    .Query .query-form form {width: 80%;}
+    .Query .query-form form .input-div:nth-child(1) {flex-basis: 100%;margin-right: 0%;}
+    .Query .query-form form .input-div:nth-child(1) input { padding: 10px 20px;font-size: 12px;}
+    .Query .query-form form .input-div:nth-child(2) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(2) input {padding: 10px 20px; font-size: 12px;margin-top: 10px;}
+    .Query .query-form form .input-div:nth-child(3) input {font-size: 12px;}
+    .Query .query-form form .input-div:nth-child(4) input {font-size: 12px;}
+    .Query .query-form form .input-div:nth-child(6) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(6) input {width: 80%;font-size: 12px;padding: 7px 10px;}
+    .Query .query-form form .input-div:nth-child(6) select {width: 80%;font-size: 12px;padding: 6px 20px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(5) input {font-size: 12px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(7) textarea { padding: 5px 20px;font-size: 12px;}
+    .Query .query-form form .input-div:nth-child(8) a {font-size: 12px;padding: 6px 8px;margin-bottom: 20px;}
+    .privacy-policy{font-size: 12px;text-align: center;}
+
+    /*==============================================Contact====================================================*/
+
+
+
+    .Contact-us .Contact-us-content h2 {font-size: 20px;}
+    .Contact-us .Contact-us-content {padding: 25px 0px}
+    .privacy-policy{font-size: 12px;text-align: center;}
+    .Contact-us .Contact-us-content p {width: 65%;}
+
+    /*==============================================Portfolio====================================================*/
+    .protfolio-hero .protfolio-hero-content {padding: 80px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 13px;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 30px;}
+
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 26px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 20px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 80%;font-size: 13px;padding: 12px;background: rgba(0,0,0,0.7);}
+
+
+    /*==============================================nc-team====================================================*/
+    
+    .team-hero-content .heading{font-size: 14px;font-weight: bold;} 
+    .team-hero-content .dis{font-size: 13px;}
+    .team-content-section .left-section img{width: 315px;} 
+    .team-content-section .right-section {font-size: 14px;font-weight: bold;}  
+    .team-content-section .right-section  .dis p{font-size: 13px;font-weight:500;}
+    .team-content-section .left-section .heading{font-size: 14px;font-weight: bold;}
+    .team-content-section .left-section .dis{font-size: 13px; font-weight: 500;}
+    .team-content-section .right-section img{width: 315px;} 
+    
+    /*==============================================nc-team====================================================*/
+    
+    .team-hero-content .heading{font-size: 14px;font-weight: bold;} 
+    .team-hero-content .dis{font-size: 13px;}
+
+    .team-content-section .left-section img{width: 100%} 
+    .team-content-section .right-section {font-size: 14px;font-weight: bold;}  
+    .team-content-section .right-section  .dis p{font-size: 13px;font-weight:500;}
+    .team-content-section .left-section .heading{font-size: 14px;font-weight: bold;display: unset;}
+    .team-content-section .left-section .dis{font-size: 13px; font-weight: 500;display: unset;}
+    .team-content-section .right-section img{width: 100%} 
+     .ncteam-hero-content p{font-size: 15px;margin: 0x 15px !important;}
+}
+
+@media(max-width: 350px){
+    .serve-hero .serve-hero-content p {font-size: 19px;color: white;text-align: center;padding: 80px 25px !important;}
+    .serve-navigation .serve-navigation-content a {flex-basis: 70%;}
+    .website-dev {background-color: gainsboro;}
+    .website-dev .website-left .left-content .heading {font-size: 18px;}
+    .website-dev .website-left {flex-basis: 100%;}
+    .website-dev .website-left .left-content .dis {font-size: 15px;    padding: 10px 25px;}
+    .website-dev .website-left .left-content .btn a {padding: 5px;font-size: 12px;}
+    .website-dev .website-right {flex-basis: 90%; height: 200px;clip-path: none;}
+    .mobile-app .mobile-left {flex-basis: 90%; height: 200px;clip-path: none;}
+    .mobile-app .mobile-right .right-content .heading {font-size: 18px;margin-top: 10px;}
+    .mobile-app .mobile-right .right-content .dis {font-size: 15px;}
+    .mobile-app .mobile-right .right-content .btn a{padding: 5px;font-size: 12px;}
+    .mobile-app .mobile-right {flex-basis: 100%;}
+    .mobile-app .mobile-right .right-content .dis {padding: 10px 25px;}
+    .web-design .web-design-left {flex-basis: 100%;}
+    .web-design {background-color: gainsboro;}
+    .web-design .web-design-left .left-content .heading {font-size: 20px;margin-top: 25px;}
+    .web-design .web-design-left .left-content .dis {font-size: 15px;}
+    .web-design .web-design-left .left-content .dis {padding: 10px 25px;}
+    .web-design {padding: 0px 0px;}
+    .web-design .web-design-left .left-content .btn a{padding: 5px;font-size: 12px;}
+    .web-design .web-design-right {flex-basis: 90%;height: 200px; clip-path: none;}
+    
+    .Hosting .Hosting-left {flex-basis: 90%;height: 200px;clip-path: none;}
+    .Hosting .Hosting-right {flex-basis: 100%;}
+    .Hosting .Hosting-right .right-content .heading {font-size: 20px;padding: 10px 25px;}
+    .Hosting .Hosting-right .right-content .dis {font-size: 15px;}
+    .Hosting .Hosting-right .right-content .dis {padding: 0px 25px;}
+    .team-aug {background-color: gainsboro;}
+    .team-aug .team-aug-left .left-content .heading {font-size: 20px;}
+    .team-aug .team-aug-left .left-content .dis {font-size: 15px;}
+    .team-aug .team-aug-left {flex-basis: 100%;}
+    .team-aug .team-aug-left .left-content .dis {padding: 10px 25px;}
+    .team-aug .team-aug-right {flex-basis: 90%;height: 200px;    clip-path: none;}
+    
+    .Business-apps .Business-apps-left {flex-basis: 90%;height: 200px;clip-path: none;}
+    .Business-apps .Business-apps-right {flex-basis: 100%;}
+    .Business-apps .Business-apps-right .right-content .heading {font-size: 20px;margin-top: 10px;}
+    .Business-apps .Business-apps-right .right-content .dis {font-size: 15px;padding: 10px 25px;}
+    .Business-apps .Business-apps-right .right-content .btn a {padding: 5px;font-size: 12px;}
+    .Query .query-heading .head {font-size: 18px;padding-bottom: 5px;}
+    .Query .query-heading .dis p {font-size: 15px;width: 100%;}
+    .Query .query-heading .dis {padding: 0px 25px;}
+    .Query .query-form form {width: 80%;}
+    .Query .query-form form .input-div:nth-child(1) {flex-basis: 100%;margin-right: 0%;}
+    .Query .query-form form .input-div:nth-child(1) input { padding: 10px 20px;font-size: 12px;}
+    .Query .query-form form .input-div:nth-child(2) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(2) input {padding: 10px 20px; font-size: 12px;margin-top: 10px;}
+    .Query .query-form form .input-div:nth-child(3) input {font-size: 12px;}
+    .Query .query-form form .input-div:nth-child(4) input {font-size: 12px;}
+    .Query .query-form form .input-div:nth-child(6) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(6) input {width: 80%;font-size: 12px;padding: 7px 10px;}
+    .Query .query-form form .input-div:nth-child(6) select {width: 80%;font-size: 12px;padding: 6px 20px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(5) input {font-size: 12px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(7) textarea { padding: 5px 20px;font-size: 12px;}
+    .Query .query-form form .input-div:nth-child(8) a {font-size: 12px;padding: 6px 8px;margin-bottom: 20px;}
+    .privacy-policy{font-size: 12px;text-align: center;}
+
+    /*==============================================Contact====================================================*/
+
+
+
+    .Contact-us .Contact-us-content h2 {font-size: 20px;}
+    .Contact-us .Contact-us-content {padding: 30px 0px}
+    .privacy-policy{font-size: 12px;text-align: center;}
+    .Contact-us .Contact-us-content p {width: 65%;}
+
+    /*==============================================Portfolio====================================================*/
+    .protfolio-hero .protfolio-hero-content {padding: 70px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 13px !important;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 28px !important;}
+
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 26px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 16px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 80%;font-size: 13px;padding: 12px;background: rgba(0,0,0,0.7);}
+
+
+    /*==============================================nc-team====================================================*/
+    
+    .team-hero-content .heading{font-size: 14px;font-weight: bold;} 
+    .team-hero-content .dis{font-size: 13px;}
+    .team-content-section .left-section{display: flex;justify-content: center;align-items: center;}
+    .team-content-section .left-section img{width: 100%} 
+    .team-content-section .right-section {font-size: 14px;font-weight: bold;}  
+    .team-content-section .right-section  .dis p{font-size: 13px;font-weight:500;}
+    .team-content-section .left-section .heading{font-size: 14px;font-weight: bold;display: unset;}
+    .team-content-section .left-section .dis{font-size: 13px; font-weight: 500;display: unset;}
+    .team-content-section .right-section img{width: 100%} 
+      .ncteam-hero-content p{font-size: 15px;margin: 0x 15px !important;}
+}
+
+@media(max-width: 320px){
+
+    /*.serve-hero .serve-hero-content p {font-size: 19px;color: white;text-align: center;padding: 80px 30px !important;}
+    .serve-navigation .serve-navigation-content a {flex-basis: 70%;}
+    .website-dev {background-color: gainsboro;}
+    .website-dev .website-left .left-content .heading {font-size: 18px;}
+    .website-dev .website-left {flex-basis: 100%;}
+    .website-dev .website-left .left-content .dis {font-size: 15px;    padding: 10px 25px;}
+    .website-dev .website-left .left-content .btn a {padding: 5px;font-size: 12px;}
+    .website-dev .website-right {flex-basis: 90%; height: 180px;clip-path: none;}
+    .mobile-app .mobile-left {flex-basis: 90%; height: 180px;clip-path: none;}
+    .mobile-app .mobile-right .right-content .heading {font-size: 18px;margin-top: 10px;}
+    .mobile-app .mobile-right .right-content .dis {font-size: 15px;}
+    .mobile-app .mobile-right .right-content .btn a{padding: 5px;font-size: 12px;}
+    .mobile-app .mobile-right {flex-basis: 100%;}
+    .mobile-app .mobile-right .right-content .dis {padding: 10px 25px;}
+    .web-design .web-design-left {flex-basis: 100%;}
+    .web-design {background-color: gainsboro;}
+    .web-design .web-design-left .left-content .heading {font-size: 20px;margin-top: 25px;}
+    .web-design .web-design-left .left-content .dis {font-size: 15px;}
+    .web-design .web-design-left .left-content .dis {padding: 10px 25px;}
+    .web-design {padding: 0px 0px;}
+    .web-design .web-design-left .left-content .btn a{padding: 5px;font-size: 12px;}
+    .web-design .web-design-right {flex-basis: 90%;height: 180px; clip-path: none;}
+    
+    .Hosting .Hosting-left {flex-basis: 90%;height: 180px;clip-path: none;}
+    .Hosting .Hosting-right {flex-basis: 100%;}
+    .Hosting .Hosting-right .right-content .heading {font-size: 20px;padding: 10px 25px;}
+    .Hosting .Hosting-right .right-content .dis {font-size: 15px;}
+    .Hosting .Hosting-right .right-content .dis {padding: 0px 25px;}
+    .team-aug {background-color: gainsboro;}
+    .team-aug .team-aug-left .left-content .heading {font-size: 20px;}
+    .team-aug .team-aug-left .left-content .dis {font-size: 15px;}
+    .team-aug .team-aug-left {flex-basis: 100%;}
+    .team-aug .team-aug-left .left-content .dis {padding: 10px 25px;}
+    .team-aug .team-aug-right {flex-basis: 90%;height: 180px;    clip-path: none;}
+    
+    .Business-apps .Business-apps-left {flex-basis: 90%;height: 180px;clip-path: none;}
+    .Business-apps .Business-apps-right {flex-basis: 100%;}
+    .Business-apps .Business-apps-right .right-content .heading {font-size: 20px;margin-top: 10px;}
+    .Business-apps .Business-apps-right .right-content .dis {font-size: 15px;padding: 10px 25px;}
+    .Business-apps .Business-apps-right .right-content .btn a {padding: 5px;font-size: 12px;}
+    .Query .query-heading .head {font-size: 18px;padding-bottom: 5px;}
+    .Query .query-heading .dis p {font-size: 15px;width: 100%;}
+    .Query .query-heading .dis {padding: 0px 25px;}
+    .Query .query-form form {width: 80%;margin: 15px 0px;}
+    .Query .query-form form .input-div:nth-child(1) {flex-basis: 100%;margin-right: 0%;}
+    .Query .query-form form .input-div:nth-child(1) input { padding: 10px 20px;font-size: 12px;}
+    .Query .query-form form .input-div:nth-child(2) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(2) input {padding: 10px 20px; font-size: 12px;margin-top: 10px;}
+    .Query .query-form form .input-div:nth-child(3) input {font-size: 12px;}
+    .Query .query-form form .input-div:nth-child(4) input {font-size: 12px;}
+    .Query .query-form form .input-div:nth-child(6) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(6) input {width: 80%;font-size: 12px;padding: 7px 10px;}
+    .Query .query-form form .input-div:nth-child(6) select {width: 80%;font-size: 12px;padding: 6px 20px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(5) input {font-size: 12px;}
+    .Query .query-form form .input-div:nth-child(5) {flex-basis: 100%;}
+    .Query .query-form form .input-div:nth-child(7) textarea { padding: 5px 20px;font-size: 12px;}
+    .Query .query-form form .input-div:nth-child(8) a {font-size: 12px;padding: 6px 8px;margin-bottom: 20px;}
+    .*/privacy-policy{font-size: 12px;text-align: center;}
+
+    /*==============================================Contact====================================================*/
+
+/*
+
+    .Contact-us .Contact-us-content h2 {font-size: 20px;}
+    .Contact-us .Contact-us-content {padding: 25px 0px}
+    .privacy-policy{font-size: 12px;text-align: center;}
+    
+*/
+
+    /*==============================================Portfolio====================================================*/
+   /* .protfolio-hero .protfolio-hero-content {padding: 70px 0px;}
+    .protfolio-hero .protfolio-hero-content p {font-size: 13px;}
+    .protfolio-hero .protfolio-hero-content p span {font-size: 30px;}
+
+
+    .portfolio-section .portfolio-content .portfolio-card .heading {font-size: 26px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis p {line-height: 16px;}
+    .portfolio-section .portfolio-content .portfolio-card .dis {width: 80%;font-size: 13px;padding: 12px;background: rgba(0,0,0,0.7);}
+*/
+/*=========================nc-team============================*/
+    /*
+    .ncteam-hero-content p{font-size: 14px;margin: 0x 15px !important;}
+*/
+    }
